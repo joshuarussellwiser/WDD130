@@ -21,8 +21,8 @@ header {
     background-color:#4B5043;}
         
 nav a:hover {
-    background-color: #4B5043;
-    color:#9BC4BC
+    background-color: #EBFFF5;
+    color:black
         }
 nav a{
     text-align: center;
@@ -33,15 +33,24 @@ nav a{
     color: #9BC4BC;
 }
 h4{
-    color: #4B5043;
+    color: black;
 }
-.book, .join{
-    background-color: black;
-    color: #4B5043;
+.book{
+    background-color: #9BC4BC;
+    color: black;
     text-decoration: none;
 }
-.book:hover, .join:hover{
+.join{
     background-color: #4B5043;
+    color: #9BC4BC;
+    text-decoration: none;
+}
+.book:hover{
+    background-color: #4B5043;
+    color: #EBFFF5;
+}
+.join:hover{
+    background-color: #EBFFF5;
     color: black;
 }
 .msg h2{

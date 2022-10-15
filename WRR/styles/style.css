@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -31,10 +33,14 @@ nav a{
     text-decoration: none;
 }
 .home-title{
-    color: #9BC4BC;
+    color: #4B5043;
+    font-size: xx-large;
+    font-family: rocksalt;
+
 }
 h4{
     color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .book{
     background-color: #9BC4BC;

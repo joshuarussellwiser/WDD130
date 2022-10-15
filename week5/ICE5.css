@@ -1,0 +1,54 @@
+html{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+main{
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.thome{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+#bottomsection{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: gray;
+    height: 700px;
+}
+.first{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+    border: 15px solid rgb(87, 87, 87);
+}
+.second{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+    border: 15px solid rgb(87, 87, 87);
+}
+.third{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+    border: 15px solid rgb(87, 87, 87);
+}
+#pics{
+    padding: 150px 9%;
+    display: flex;
+    justify-content: center;
+    margin: auto auto;
+}

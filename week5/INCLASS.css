@@ -1,0 +1,19 @@
+.top{
+    background-color: red;
+    margin: auto 500px;
+    text-align: center;
+    padding: 40px
+    
+}
+.middle{
+    background-color: blue;
+    margin: auto 300px;
+    text-align: center;
+    padding: 40px;
+}
+.bottom{
+    background-color: green;
+    margin: auto 100px;
+    text-align: center;
+    padding: 40px;
+}

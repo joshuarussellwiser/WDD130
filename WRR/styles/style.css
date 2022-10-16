@@ -1,6 +1,8 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rock+Salt&display=swap');
+h2{
+    margin: 0;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -17,8 +19,11 @@ main secton {
     height: 725px
 }
 body{
-    background-color: #9BC4BC   ;
-    ;
+    background-color: #9BC4BC;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#4B5043;}
@@ -31,26 +36,37 @@ nav a{
     text-align: center;
     color: #9BC4BC;
     text-decoration: none;
+    padding: 35px;
 }
 .home-title{
     color: #4B5043;
-    font-size: xx-large;
-    font-family: rocksalt;
+    font-size: 4em;
+    font-family: 'Permanent Marker';
+    margin-top: 10px;
 
 }
 h4{
     color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .book{
-    background-color: #9BC4BC;
+    background-color: #4B5043;
     color: black;
     text-decoration: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+
 }
 .join{
     background-color: #4B5043;
     color: #9BC4BC;
     text-decoration: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 50px;
 }
 .book:hover{
     background-color: #4B5043;
@@ -65,6 +81,8 @@ h4{
 }
 .msg p{
     color: #9BC4BC;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 #background{
     background-color: #4B5043;
@@ -72,11 +90,13 @@ h4{
 }
 .msg{
     background-color: #4B5043;
+    padding: 35px;
 
 }
 footer{
     background-color: #4B5043;
     color: black;
+    padding: 25px 50px;
 }
 footer a{
     color: black;
@@ -93,10 +113,31 @@ footer p a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px
 }
+#logo_link{
+    padding-top: 5px;
+}
 #hero-img{
     width: 100%
+}
+footer .social img{
+    padding-top: 15px;
+    margin-top: 50px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin:200px 0;
+
+}
+.card-img{
+    border: 10px solid #4B5043;
+}
+main section img{
+    box-sizing: border-box;
+}
+.caption{
+    font-family: 'permanent marker';
 }

@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:800px 800px;
+    grid-template-rows: 800px 800px;
+    background-color: white;
+    padding: 0px;
+    height: 800px;
+    column-gap: 0px;
+    margin-left: 200px;
+}
+.grid-item{
+    margin: 0;
+    width: 800px;
+}
+.first{
+    background-color: white;
+    padding: 0px;
+    
+}
+.second{
+    background-color: grey;
+    color: rgb(94, 10, 10);
+    
+}
+.cherry{
+    position: absolute;
+    left: 375px;
+    top: 50px;
+  z-index: 1;
+  font-size: 130pt;
+}
+.right{
+    font-size: 85pt;
+    margin-top: 600px;
+    text-align: center;
+}

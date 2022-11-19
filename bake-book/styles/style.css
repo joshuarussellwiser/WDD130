@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Fasthand&display=swap');
+#content {
+    max-width: 100%;
+    margin: 0 60px;
+    text-align: center;
+    
+
+}
+body{
+    max-width: 1750px;
+    background-color: #FFFACC;
+    margin: 0;
+    padding: 0;
+}
+#title{
+    color: #53131E;
+    text-align: left;
+    font-size: 40pt;
+    width: 50%;
+    font-family: fasthand;
+    text-shadow: 5px 5px 20px #a09852;
+
+    margin-left: 200px;
+    margin-top: 50px;
+
+}
+img{
+    width: 100%;
+    
+}
+.home-image{
+    border-radius: 10px;
+    border: 3px solid #53131E;
+}
+header{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 85px 160px 160px 160px 140px 160px 125px 160px 160px 160px 100px ;
+    grid-template-rows: 25px 25px 25px 25px 25px;
+    align-items: center;
+    background-color: #B5D6B2;
+    padding:20px 70px;
+    border-radius: 0 0 10px 10px;
+    margin-top: 0;
+    
+    
+}
+.header-nav {
+    color: #FFFACC;
+    text-decoration: none;
+    background-color: #53131E;
+    border-radius: 10px;
+    width: 175px;
+    text-align: center;
+    padding: 30px;
+    margin: auto 40px;
+    grid-row: 1/5;
+    box-shadow: 5px 5px 20px black;
+    font-family: dosis;
+    font-size: 20pt;
+    
+    
+}
+.header-nav:hover{
+    background-color: #FFFACC;
+    color: #53131E;
+}
+#logo-link{
+    grid-row: 1/5;
+    grid-column: 1/3;
+    width: 60%;
+}
+#header-home{
+    grid-column: 3/4;
+
+}
+#header-recipes{
+    grid-column: 5/6;
+}
+#header-submit{
+    grid-column: 7/8;
+}
+#header-contact{
+    grid-column: 9/10;
+}
+#image-grid{
+    display: grid;
+    grid-template-columns: 800px 800px;
+    grid-template-rows:600px 600px ;
+    row-gap: 100px;
+    column-gap: 100px;
+    font-size: xx-large;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.para{
+    display: flex;
+    background-color: #5A464C;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    padding:0 20px;
+    border-radius: 10px;
+    font-family: dosis;
+    box-shadow: 10px 10px 40px black;
+    
+}
+
+#background-grid{
+    display: grid;
+    grid-template-columns: 185px 160px 160px 160px 140px 160px 140px 160px 160px 160px 185px ;
+    grid-template-rows: 200px 200px 250px 200px 150px 100px;
+    margin-bottom: 20px;
+    
+    
+
+}
+#background{
+    border-radius: 10px;
+    background-color: #53131E;
+    grid-column: 1/12;
+    grid-row: 1/6;
+
+}
+#bread{
+    grid-column: 2/6;
+    grid-row: 2/5;
+    height: 70%;
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+#cookie{
+    grid-column: 7/11;
+    grid-row: 2/5;
+    height: 70%;
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.food-images{
+    box-shadow: 10px 10px 40px black;
+}
+#bread-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self:center ;
+    color: black;
+    grid-column: 3/5;
+    grid-row: 2/5;
+    width: 80%;
+    text-justify: center;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #B5D6B2;
+    border-radius: 10px;
+    height: 10%;
+    margin-top: 50%;
+    text-decoration: none;
+    font-family: dosis;
+    font-weight: 1000;
+    
+}
+#cookie-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self:center ;
+    color: black;
+    grid-column: 8/10;
+    grid-row: 2/5;
+    width: 80%;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #B5D6B2;
+    border-radius: 10px;
+    height: 10%;
+    margin-top: 50%;
+    text-decoration: none;
+    font-family: dosis;
+    font-weight: 1000;
+    
+}
+#cookie-text:hover{
+    background-color: #53131E;
+    color: white;
+}
+#bread-text:hover{
+    background-color: #53131E;
+    color: white;
+}
+.recipe-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#background-text{
+    color: white;
+    grid-column: 5/8;
+    grid-row: 1/2;
+    font-size: 90pt;
+    margin-top: 0px;
+}
+.body-titles{
+    font-family: fasthand;
+    text-shadow: 5px 5px 20px black;
+}
+.background-desc{
+    color: white;
+    grid-row: 4/6;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    font-family: dosis;
+    
+    
+}
+#first{
+    grid-column: 2/6;
+}
+#second{
+    grid-column: 7/11;
+}
+footer{
+    width: 100%;
+    margin-bottom: 0;
+    
+}
+#footer-grid{
+    display: grid;
+    grid-template-columns: 85px 160px 160px 160px 140px 160px 125px 160px 160px 160px 100px ;
+    grid-template-rows: 25px 50px 50px 50px 50px;
+    column-gap: 20px;
+}
+#footer-color{
+    border-radius: 10px 10px 0 0;
+    background-color: #B5D6B2;
+    grid-column: 1/12;
+    grid-row: 1/6;
+    
+}
+#copy{
+    grid-column: 2/6;
+    grid-row: 2/3;
+    font-size: 20pt;
+    color: #53131E;
+}
+#home-footer{
+    display: flex;
+    grid-row: 4/5;
+    grid-column: 2/3;
+    text-decoration: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+#first-footer{
+    grid-row: 4/5;
+    grid-column: 3/4;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+#second-footer{
+    grid-row: 4/5;
+    grid-column: 4/5;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+#site-footer{
+    grid-row: 4/5;
+    grid-column: 5/6;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.footer-buttons{
+    background-color: #53131E;
+    color: #FFFACC;
+    font-family: dosis;
+    font-size: 15pt;
+    box-shadow: 5px 5px 20px black;
+}
+.footer-buttons:hover{
+    background-color: #FFFACC;
+    color: #53131E;
+}
+.social{
+    border-radius: 50%;
+    width: 60%;
+    border:10px solid #5A464C;
+}
+#facebook{
+    grid-column: 8/9;
+    grid-row: 2/5;
+}
+#twitter{
+    grid-column: 9/10;
+    grid-row: 2/5;
+}
+#insta{
+    grid-column: 10/11;
+    grid-row: 2/5;
+}
+#email{
+    grid-column: 8/11;
+    grid-row: 5/6;
+    color: #53131E;
+    font-size: 20pt;
+}
+/*Recipe page starting*/
+#recipe-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70pt;
+    color: #53131E;
+    grid-row: 1/2;
+    grid-column: 1/12;
+    
+}
+#bread-grid{
+    display: grid;
+    grid-template-columns: 190px 160px 160px 160px 140px 145px 140px 160px 160px 160px 190px ;
+    grid-template-rows: 200px 200px 250px 200px 150px 100px;
+    margin-bottom: 20px; 
+}
+#recipe-background{
+    grid-column: 1/12;
+    grid-row: 1/6;
+    background-color: #f0eab8;
+    border-radius: 10px;
+}
+.recipe-images{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    border: 3px solid #53131E ;
+    
+}
+#recipe-bread{
+    grid-column: 2/5;
+    grid-row: 2/6;
+}
+#recipe-dough{
+    grid-column: 8/11;
+    grid-row: 2/6;
+}
+#bread-ing{
+    grid-column: 2/5;
+    grid-row: 4/6;
+    font-size: 16pt;
+}
+#bread-inst{
+    grid-column: 8/11;
+    grid-row: 4/6;
+    font-size: 16pt;
+}
+#cookie-grid{
+    display: grid;
+    grid-template-columns: 190px 160px 160px 160px 140px 145px 140px 160px 160px 160px 190px ;
+    grid-template-rows: 200px 200px 250px 200px 150px 100px;
+    margin-bottom: 20px; 
+}
+#recipe-cookie{
+    grid-column: 2/5;
+    grid-row: 2/6;
+}
+#recipe-oven{
+    grid-column: 8/11;
+    grid-row: 2/6;
+}
+#cookie-ing{
+    grid-column: 2/5;
+    grid-row: 4/6;
+    font-size: 16pt;
+}
+#cookie-inst{
+    grid-column: 8/11;
+    grid-row: 4/6;
+    font-size: 16pt;
+}
+/*start of submission page*/
+#submit-grid{
+    display: grid;
+    grid-template-columns: 90px 260px 160px 160px 140px 145px 140px 160px 160px 260px 90px ;
+    grid-template-rows: 200px 200px 250px 200px 150px 100px;
+    margin-bottom: 20px; 
+}
+.box{
+    border-radius: 10px;
+    border: 3px solid #53131E;
+    background-color: #FFFACC;
+}
+#submit-background{
+    grid-column: 1/12;
+    grid-row: 1/6;
+    background-color: #f0eab8;
+    border-radius: 10px;
+}
+#ing-title{
+    grid-column: 2/6;
+}
+#inst-title{
+    grid-column: 7/11;
+}
+.s-titles{
+    font-size: 30pt;
+    grid-row: 1/2;
+}
+#submit-ing{
+    grid-row: 2/4;
+    grid-column: 2/6;
+}
+#submit-inst{
+    grid-row: 2/4;
+    grid-column: 7/11;
+}

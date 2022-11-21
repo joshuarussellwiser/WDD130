@@ -8,17 +8,17 @@
 }
 body{
     max-width: 1750px;
-    background-color: #FFFACC;
+    background-color: #F0F4EF;
     margin: 0;
     padding: 0;
 }
 #title{
-    color: #53131E;
+    color: #172B3A;
     text-align: left;
     font-size: 40pt;
     width: 50%;
     font-family: fasthand;
-    text-shadow: 5px 5px 20px #a09852;
+    
 
     margin-left: 200px;
     margin-top: 50px;
@@ -30,7 +30,7 @@ img{
 }
 .home-image{
     border-radius: 10px;
-    border: 3px solid #53131E;
+    border: 3px solid #172B3A;
 }
 header{
     width: 100%;
@@ -38,7 +38,7 @@ header{
     grid-template-columns: 85px 160px 160px 160px 140px 160px 125px 160px 160px 160px 100px ;
     grid-template-rows: 25px 25px 25px 25px 25px;
     align-items: center;
-    background-color: #B5D6B2;
+    background-color: #B4CDED;
     padding:20px 70px;
     border-radius: 0 0 10px 10px;
     margin-top: 0;
@@ -46,9 +46,9 @@ header{
     
 }
 .header-nav {
-    color: #FFFACC;
+    color: #F0F4EF;
     text-decoration: none;
-    background-color: #53131E;
+    background-color: #172B3A;
     border-radius: 10px;
     width: 175px;
     text-align: center;
@@ -62,8 +62,8 @@ header{
     
 }
 .header-nav:hover{
-    background-color: #FFFACC;
-    color: #53131E;
+    background-color: #F0F4EF;
+    color: #172B3A;
 }
 #logo-link{
     grid-row: 1/5;
@@ -95,7 +95,7 @@ header{
 }
 .para{
     display: flex;
-    background-color: #5A464C;
+    background-color: #344966;
     color: white;
     justify-content: center;
     align-items: center;
@@ -118,7 +118,7 @@ header{
 }
 #background{
     border-radius: 10px;
-    background-color: #53131E;
+    background-color: #172B3A;
     grid-column: 1/12;
     grid-row: 1/6;
 
@@ -155,7 +155,7 @@ header{
     text-justify: center;
     text-align: center;
     font-size: xx-large;
-    background-color: #B5D6B2;
+    background-color: #B4CDED;
     border-radius: 10px;
     height: 10%;
     margin-top: 50%;
@@ -176,7 +176,7 @@ header{
     width: 80%;
     text-align: center;
     font-size: xx-large;
-    background-color: #B5D6B2;
+    background-color: #B4CDED;
     border-radius: 10px;
     height: 10%;
     margin-top: 50%;
@@ -186,11 +186,11 @@ header{
     
 }
 #cookie-text:hover{
-    background-color: #53131E;
+    background-color: #172B3A;
     color: white;
 }
 #bread-text:hover{
-    background-color: #53131E;
+    background-color: #172B3A;
     color: white;
 }
 .recipe-buttons{
@@ -207,7 +207,6 @@ header{
 }
 .body-titles{
     font-family: fasthand;
-    text-shadow: 5px 5px 20px black;
 }
 .background-desc{
     color: white;
@@ -238,7 +237,7 @@ footer{
 }
 #footer-color{
     border-radius: 10px 10px 0 0;
-    background-color: #B5D6B2;
+    background-color: #B4CDED;
     grid-column: 1/12;
     grid-row: 1/6;
     
@@ -247,7 +246,7 @@ footer{
     grid-column: 2/6;
     grid-row: 2/3;
     font-size: 20pt;
-    color: #53131E;
+    color: #172B3A;
 }
 #home-footer{
     display: flex;
@@ -290,20 +289,20 @@ footer{
     border-radius: 10px;
 }
 .footer-buttons{
-    background-color: #53131E;
-    color: #FFFACC;
+    background-color: #172B3A;
+    color: #F0F4EF;
     font-family: dosis;
     font-size: 15pt;
     box-shadow: 5px 5px 20px black;
 }
 .footer-buttons:hover{
-    background-color: #FFFACC;
-    color: #53131E;
+    background-color: #F0F4EF;
+    color: #172B3A;
 }
 .social{
     border-radius: 50%;
     width: 60%;
-    border:10px solid #5A464C;
+    border:10px solid #344966;
 }
 #facebook{
     grid-column: 8/9;
@@ -320,7 +319,7 @@ footer{
 #email{
     grid-column: 8/11;
     grid-row: 5/6;
-    color: #53131E;
+    color: #172B3A;
     font-size: 20pt;
 }
 /*Recipe page starting*/
@@ -329,7 +328,7 @@ footer{
     align-items: center;
     justify-content: center;
     font-size: 70pt;
-    color: #53131E;
+    color: #172B3A;
     grid-row: 1/2;
     grid-column: 1/12;
     
@@ -343,14 +342,14 @@ footer{
 #recipe-background{
     grid-column: 1/12;
     grid-row: 1/6;
-    background-color: #f0eab8;
+    background-color: #e4e4e4;
     border-radius: 10px;
 }
 .recipe-images{
     width: 100%;
     height: 50%;
     border-radius: 10px;
-    border: 3px solid #53131E ;
+    border: 3px solid #172B3A ;
     
 }
 #recipe-bread{
@@ -404,13 +403,13 @@ footer{
 }
 .box{
     border-radius: 10px;
-    border: 3px solid #53131E;
-    background-color: #FFFACC;
+    border: 3px solid #172B3A;
+    background-color: #F0F4EF;
 }
 #submit-background{
     grid-column: 1/12;
     grid-row: 1/6;
-    background-color: #f0eab8;
+    background-color: #e4e4e4;
     border-radius: 10px;
 }
 #ing-title{

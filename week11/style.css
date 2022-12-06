@@ -1,0 +1,12 @@
+section {
+    width: 50%;
+    border: 1px solid;
+  }
+  .three{
+    display: flex;
+    text-align: right;
+  }
+  .one{
+    text-align: left;
+  }
+  .two{text-align: center;}
